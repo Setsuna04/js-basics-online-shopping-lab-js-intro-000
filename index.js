@@ -47,7 +47,7 @@ function viewCart() {
       if (i + 1 === cart.length && cart.length > 1) {itemsInCart = itemsInCart.concat(' and');}
 
       //Add items
-      itemsInCart = itemsInaaCart.concat(` ${item} at \$${price}`);
+      itemsInCart = itemsInCart.concat(` ${item} at \$${price}`);
       //Add punctuation
        //punctuation = itemsInCart.concat(',')) ? (i + 1 === cart.length) : itemsInCart.concat('.');
 
