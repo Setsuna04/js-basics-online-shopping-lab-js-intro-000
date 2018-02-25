@@ -51,9 +51,10 @@ function viewCart() {
       //Add punctuation
        //punctuation = itemsInCart.concat(',')) ? (i + 1 === cart.length) : itemsInCart.concat('.');
 
-       var punctuation = ((i + 1 !== cart.length && cart.length > 2) ? ',' : '.');
+       var punctuation = ((i + 1 !== cart.length && cart.length > 2) ? ',' : '');
        itemsInCart = itemsInCart.concat(punctuation);
     }
+    itemsInCart = itemsInCart.concat('.');
     return itemsInCart;
   }
 }
